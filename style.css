@@ -68,39 +68,18 @@ body {
   display: block;
 }
 
-.hero {
-  position: relative;
-  /* để chữ có thể đặt theo vị trí ảnh */
-  text-align: center;
-  /* căn giữa chữ theo ngang */
-  color: rgb(14, 8, 8);
-}
-
-.hero img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
 
 .hero-text {
   position: absolute;
   top: 60%;
   right: 5%;
-  /* đặt sát bên phải */
   transform: translateY(-50%);
-  /* chỉ căn giữa theo trục dọc */
-  text-align: left;
-  /* chữ canh phải cho đồng bộ */
-  max-width: 40%;
-  /* tránh chữ quá rộng rồi bị cắt */
-  width: auto;
-  color: rgb(255, 255, 255);
+  color: #fff;
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
-  padding: 20px;
-  border-radius: 10px;
+  max-width: 40%;
   z-index: 2;
-  /* nằm trên ảnh */
 }
+
 
 .hero-text h1 {
   font-size: 36px;
